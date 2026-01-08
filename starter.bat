@@ -1,2 +1,2 @@
-py cwelium.py
+py main.py
 pause
