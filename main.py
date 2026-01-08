@@ -115,7 +115,7 @@ def joiner(invite, tokens):
 if __name__ == "__main__":
     tokens_list = load_tokens()
     if tokens_list:
-        invite = input("Enter invite code: ")
+        invite = input("Enter invite code > ")
         joiner(invite, tokens_list)
     else:
         print("No tokens found in tokens.txt")
